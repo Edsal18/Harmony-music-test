@@ -14,7 +14,7 @@ export default function Footer() {
         </div>
 
         {/* Copy */}
-        <p>© {currentYear} Harmony Music. Todos los derechos reservados.</p>
+        <p>© {currentYear} Harmony Music.</p>
 
         {/* Links */}
         <div className="flex gap-4">
