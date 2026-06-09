@@ -83,7 +83,7 @@ async function main() {
       title: 'Batería Acústica Pearl Export EXX',
       description: 'La batería más vendida de todos los tiempos. Vasos de álamo y caoba asiática para un sonido potente, herrajes de la serie 830 y platos Sabian SBR incluidos.',
       price: 899.0,
-      imageUrl: 'https://images.unsplash.com/photo-1547427650-85cd4931a26d?auto=format&fit=crop&q=80&w=400',
+      imageUrl: 'https://images.unsplash.com/photo-1519892300165-cb5542fb47c7?auto=format&fit=crop&q=80&w=400',
       categoryId: percussionCategory.id,
     },
     {
@@ -97,14 +97,14 @@ async function main() {
       title: 'Sintetizador Analógico Korg Minilogue',
       description: 'Sintetizador analógico polifónico de 4 voces de nueva generación. Mapeado de panel intuitivo con 200 presets, secuenciador de 16 pasos y osciloscopio integrado.',
       price: 549.0,
-      imageUrl: 'https://images.unsplash.com/photo-1612450798939-9d78473950fb?auto=format&fit=crop&q=80&w=400',
+      imageUrl: 'https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?auto=format&fit=crop&q=80&w=400',
       categoryId: keyboardsCategory.id,
     },
     {
       title: 'Cajón Flamenco Meinl Headliner',
       description: 'Cajón de percusión acústica construido en abedul báltico. Cuenta con cuerdas internas ajustables para un efecto de caja nítido y graves profundos e intensos.',
       price: 119.0,
-      imageUrl: 'https://images.unsplash.com/photo-1595062584113-e28440072007?auto=format&fit=crop&q=80&w=400',
+      imageUrl: 'https://images.unsplash.com/photo-1599839575945-a9e5af0c3fa5?auto=format&fit=crop&q=80&w=400',
       categoryId: percussionCategory.id,
     }
   ];
