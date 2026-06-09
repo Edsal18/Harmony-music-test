@@ -2,6 +2,7 @@ const express = require('express');
 const cors = require('cors');
 require('dotenv').config();
 
+const authRoutes = require('../src/routes/authRoutes');
 const itemRoutes = require('../src/routes/itemRoutes');
 
 const app = express();
@@ -25,6 +26,7 @@ app.get('/api', (req, res) => {
 });
 
 // Rutas de la aplicación
+app.use('/api/auth', authRoutes);
 app.use('/api/items', itemRoutes);
 
 // Manejo de rutas inexistentes (404)
